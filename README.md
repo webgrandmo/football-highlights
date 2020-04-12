@@ -9,7 +9,7 @@
   <li>Gulp</li>
 </ol>
 
-Run <code>npm install</code> 
-this will install all the necesarry packages and libs.
-Run <code>npm run dev</code>
-this will start your project on the localhost
+<p>Run <code>npm install</code></p> 
+<p>this will install all the necesarry packages and libs.</p>
+<p/>Run <code>npm run dev</code></p>
+<p>this will start your project on the localhost</p>
