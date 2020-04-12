@@ -1,0 +1,39 @@
+{
+  "name": "football-highlights",
+  "version": "1.0.0",
+  "description": "Football Highlights application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webgrandmo/football-highlights.git"
+  },
+  "keywords": [
+    "Football",
+    "soccer",
+    "highlights",
+    "stream"
+  ],
+  "author": "Andriy Trofimov aka Webgrandmo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webgrandmo/football-highlights/issues"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "gulp-useref": "^4.0.1",
+    "run-sequence": "^2.2.1",
+    "express": "*",
+    "nodemon": "*"
+  },
+  "dependencies": {
+    "gulp-css-scss": "^0.1.0"
+  },
+  "homepage": "https://github.com/webgrandmo/football-highlights#readme"
+}
