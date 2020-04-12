@@ -1,0 +1,41 @@
+#match-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .match-item {
+        width: 100%;
+        margin: $base-spacing * 2 0;
+        background: $white;
+        padding: $base-spacing 0;
+        @include border-radius(5px);
+
+        .high-light-title,
+        .match-details {
+            padding: 0 $base-spacing;
+        }
+        .high-light-title {
+            color: $primary-theme-color;
+            font-size: 1.2rem;
+        }
+        .high-light-video {
+            margin: $base-spacing 0;
+        }
+        .match-details {
+            display: flex;
+            justify-content: space-between;
+            font-size: .8rem;
+            color: $thirdary-text-color;
+            font-weight: 600;
+
+            .fa-trophy,
+            .fa-calendar-alt {
+                margin-right: $base-spacing / 2;
+            }
+        }
+
+        @include for-tablet-landscape-up {
+            width: 30%;
+        }
+    }
+}

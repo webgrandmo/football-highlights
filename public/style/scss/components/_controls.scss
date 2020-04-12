@@ -1,7 +1,7 @@
 input,
 select {
     appearance: none;
-    padding: .8rem .5rem;
+    padding: .8rem 1rem;
     border: 1px solid #e3e3e3;
     @include controls-border();
     @include border-radius(5px);
@@ -9,4 +9,10 @@ select {
     width: 100%;
     font-size: 1rem;
     max-width: 100%;
+
+    select {
+        option {
+            color: $thirdary-text-color;
+        }
+    }
 }
