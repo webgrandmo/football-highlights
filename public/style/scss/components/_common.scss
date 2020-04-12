@@ -30,3 +30,7 @@ span {
     font-size: .8rem;
     color: lighten(#414141,30%);
 }
+
+#content-container {
+    padding: 0 $base-spacing * 2;
+}

@@ -1,0 +1,30 @@
+#search-and-filter-container {
+    margin: $base-spacing * 1.2 auto;
+
+    .search,
+    .filter {
+        margin: $base-spacing auto;
+        position: relative;
+        .search-input {
+            position: relative;
+        }
+
+        .fa-search {
+            position: absolute;
+            right: $base-spacing / 2;
+            top: $base-spacing / 2;
+            color: lighten($thirdary-text-color, 30%);
+        }
+
+        @include for-tablet-landscape-up {
+            width: 30%;
+            margin-left: 0;
+            margin-right: 0;  
+        }
+    }
+
+    @include for-tablet-landscape-up {
+        display: flex;
+        justify-content: space-between;
+    }
+}
