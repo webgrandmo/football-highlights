@@ -16,9 +16,19 @@
         width: 48px;
         height: 48px;
 
-        img {
-            width: 100%;
-            max-width: 100%;
+        svg{
+            animation-name: rotate;
+            animation-duration: 60s;
+            animation-iteration-count: infinite;
+            transform-origin: 50% 50%;
         }
     }
 }
+    @keyframes rotate {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }

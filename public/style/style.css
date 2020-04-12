@@ -29,8 +29,7 @@ p {
   font-size: 1rem; }
 
 span {
-  font-size: .8rem;
-  color: #8e8e8e; }
+  font-size: .8rem; }
 
 #content-container {
   padding: 0 2rem; }
@@ -38,7 +37,7 @@ span {
 input,
 select {
   appearance: none;
-  padding: .8rem .5rem;
+  padding: .8rem 1rem;
   border: 1px solid #e3e3e3;
   border: 1px solid #e3e3e3;
   border-radius: 5px;
@@ -46,6 +45,9 @@ select {
   width: 100%;
   font-size: 1rem;
   max-width: 100%; }
+  input select option,
+  select select option {
+    color: #7a7a7a; }
 
 .header {
   display: flex;
@@ -60,9 +62,17 @@ select {
   .header .logo {
     width: 48px;
     height: 48px; }
-    .header .logo img {
-      width: 100%;
-      max-width: 100%; }
+    .header .logo svg {
+      animation-name: rotate;
+      animation-duration: 60s;
+      animation-iteration-count: infinite;
+      transform-origin: 50% 50%; }
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
 
 #search-and-filter-container {
   margin: 1.2rem auto; }
@@ -89,3 +99,34 @@ select {
     #search-and-filter-container {
       display: flex;
       justify-content: space-between; } }
+
+#match-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  #match-container .match-item {
+    width: 100%;
+    margin: 2rem 0;
+    background: #fff;
+    padding: 1rem 0;
+    border-radius: 5px; }
+    #match-container .match-item .high-light-title,
+    #match-container .match-item .match-details {
+      padding: 0 1rem; }
+    #match-container .match-item .high-light-title {
+      color: #00a7e1;
+      font-size: 1.2rem; }
+    #match-container .match-item .high-light-video {
+      margin: 1rem 0; }
+    #match-container .match-item .match-details {
+      display: flex;
+      justify-content: space-between;
+      font-size: .8rem;
+      color: #7a7a7a;
+      font-weight: 600; }
+      #match-container .match-item .match-details .fa-trophy,
+      #match-container .match-item .match-details .fa-calendar-alt {
+        margin-right: 0.5rem; }
+    @media (min-width: 900px) {
+      #match-container .match-item {
+        width: 30%; } }
