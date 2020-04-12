@@ -1,0 +1,12 @@
+input,
+select {
+    appearance: none;
+    padding: .8rem .5rem;
+    border: 1px solid #e3e3e3;
+    @include controls-border();
+    @include border-radius(5px);
+    color: darken(#e3e3e3, 50%);
+    width: 100%;
+    font-size: 1rem;
+    max-width: 100%;
+}
