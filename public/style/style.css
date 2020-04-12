@@ -32,6 +32,9 @@ span {
   font-size: .8rem;
   color: #8e8e8e; }
 
+#content-container {
+  padding: 0 2rem; }
+
 input,
 select {
   appearance: none;
@@ -39,7 +42,50 @@ select {
   border: 1px solid #e3e3e3;
   border: 1px solid #e3e3e3;
   border-radius: 5px;
-  color: #646464;
+  color: #7a7a7a;
   width: 100%;
   font-size: 1rem;
   max-width: 100%; }
+
+.header {
+  display: flex;
+  background-color: #00a7e1;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem; }
+  .header .branding {
+    display: flex; }
+    .header .branding h1 {
+      margin-left: 1rem; }
+  .header .logo {
+    width: 48px;
+    height: 48px; }
+    .header .logo img {
+      width: 100%;
+      max-width: 100%; }
+
+#search-and-filter-container {
+  margin: 1.2rem auto; }
+  #search-and-filter-container .search,
+  #search-and-filter-container .filter {
+    margin: 1rem auto;
+    position: relative; }
+    #search-and-filter-container .search .search-input,
+    #search-and-filter-container .filter .search-input {
+      position: relative; }
+    #search-and-filter-container .search .fa-search,
+    #search-and-filter-container .filter .fa-search {
+      position: absolute;
+      right: 0.5rem;
+      top: 0.5rem;
+      color: #c7c7c7; }
+    @media (min-width: 900px) {
+      #search-and-filter-container .search,
+      #search-and-filter-container .filter {
+        width: 30%;
+        margin-left: 0;
+        margin-right: 0; } }
+  @media (min-width: 900px) {
+    #search-and-filter-container {
+      display: flex;
+      justify-content: space-between; } }

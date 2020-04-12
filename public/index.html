@@ -3,24 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
     <link rel="stylesheet" href="/public/style/style.css">
     <title>Document</title>
 </head>
 <body>
     <main id="wrapper">
-        <header>
-            <div class="logo">
-                <img src="/public/img/logo.svg" alt="Website logo. Football ball">
+        <header class="header">
+            <div class="branding">
+                <div class="logo">
+                    <img src="/public/img/logo.svg" alt="Website logo. Football ball">
+                </div>
+                <h1 class="title">Football Hightlights</h1>
             </div>
         </header>
-        <section>
-            <h1 class="title">Football Hightlights</h1>
+        <section id="content-container">
             <div id="search-and-filter-container">
-                <div id="filter" class="filter">
-                    <input type="text" placeholder="Filter videos">
-                </div>
                 <div id="search" class="search">
-                    <input type="search" placeholder="Search videos">
+                    <input class="search-input" type="search" placeholder="Search videos">
+                    <i class="fas fa-search fa-2x"></i>
+                </div>
+                <div id="filter" class="filter">
+                    <select class="filter-input" placeholder="Filter videos">
+                        <option value="1">Searia A</option>
+                        <option value="1">Searia A</option>
+                        <option value="1">Searia A</option>
+                    </select>
                 </div>
             </div>
             <div id="match-container">
