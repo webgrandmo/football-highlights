@@ -1,11 +1,15 @@
 # football-highlights
-The Football Hightlights application allows to watch different highlights of the football mathces.
+<h1>The Football Hightlights application allows to watch different highlights of the football mathces.</h1>
 
-Installation requirements:
-  <li>asd</li>
-1. Node and NPM
-2. Express and Nodemon
-3. Gulp
+<h2>Installation requirements:</h2>
 
-Run <code>npm install</code> after you clone the repository, this will install all the necesarry packages and libs.
-Run command in the console  npm run dev  this will start your project on the localhost
+<ol>
+  <li>Node and NPM</li>
+  <li>Express and Nodemon</li>
+  <li>Gulp</li>
+</ol>
+
+Run <code>npm install</code> 
+this will install all the necesarry packages and libs.
+Run <code>npm run dev</code>
+this will start your project on the localhost
