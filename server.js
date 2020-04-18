@@ -9,3 +9,7 @@ const PORT = process.env.PORT || 8000;
 app.use(express.static(path.join(__dirname, 'public')));
 
 server.listen(PORT, () => console.log(`Server is running on port ${PORT}`));
+
+
+app.use('/api/matches', require('./routes/api/matches'));
+
