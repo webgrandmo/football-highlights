@@ -1,0 +1,17 @@
+<div id="match-container">
+    {{#each matches}}
+    <div class="match-item" data-name="{{competition.name}}">
+        <h2 class="high-light-title">{{this.title}}</h2>
+        {{#each videos}}
+        <div class="high-light-video">
+            {{{this.embed}}}
+        </div>
+        {{/each}}
+        <div class="match-details">
+            <div class="match-date"><i class="far fa-calendar-alt"></i>{{formatDate this.date}}</div>
+            <div class="league"><i class="fas fa-trophy"></i>{{competition.name}}</div>
+        </div>
+    </div>
+    {{/each}}
+
+</div>
