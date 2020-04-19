@@ -1,0 +1,13 @@
+<div id="search-and-filter-container">
+    <div id="search" class="search">
+        <input class="search-input" type="search" placeholder="Search videos">
+        <i class="fas fa-search fa-2x"></i>
+    </div>
+    <div id="filter" class="filter">
+        <select class="filter-input" placeholder="Filter videos">
+            {{#each matches}}
+            <option value={{competition.name}}>{{competition.name}}</option>
+            {{/each}}
+        </select>
+    </div>
+</div>
