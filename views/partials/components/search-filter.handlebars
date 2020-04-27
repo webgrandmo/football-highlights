@@ -6,7 +6,7 @@
     <div id="filter" class="filter">
         <select class="filter-input" placeholder="Filter videos">
             {{#each matches}}
-            <option value={{competition.name}}>{{competition.name}}</option>
+            <option name="{{competition.name}}" value={{competition.name}}>{{competition.name}}</option>
             {{/each}}
         </select>
     </div>
