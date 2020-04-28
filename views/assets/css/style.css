@@ -54,7 +54,8 @@ select {
   background-color: #00a7e1;
   justify-content: center;
   align-items: center;
-  padding: 1rem; }
+  padding: 1rem;
+  margin: 0 -2rem; }
   .header .branding {
     display: flex; }
     .header .branding h1 {
