@@ -14,6 +14,6 @@
 <p/>Run <code>npm run dev</code></p>
 <p>this will start your project on the localhost</p>
 
-<h2>The application is now deplyoed and available here https://football-highlights.herokuapp.com/</h2>
+<h2>The application is now deplyoed and available here: <br> https://football-highlights.herokuapp.com/</h2>
 
 <small>Thanks to <a href="https://rapidapi.com/user/theapiguy" target="_blank">theapiguy</a> for the <a href="https://www.scorebat.com/video-api/" target="_blank">API </a></small>
