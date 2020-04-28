@@ -103,7 +103,8 @@ select {
 #match-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: flex-start; }
   #match-container .match-item {
     width: 100%;
     margin: 2rem 0;
@@ -129,4 +130,4 @@ select {
         margin-right: 0.5rem; }
     @media (min-width: 900px) {
       #match-container .match-item {
-        width: 30%; } }
+        width: 45%; } }
