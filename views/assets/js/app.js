@@ -10,7 +10,7 @@ class SearchInput {
     }
 
     searchItems() {
-        this.searchField.addEventListener('keypress', (e) => {
+        this.searchField.addEventListener('keyup', (e) => {
             e.preventDefault();
             const query = this.searchField.value.toLowerCase();
             const items = document.querySelectorAll('.match-item');
