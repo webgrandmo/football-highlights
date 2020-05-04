@@ -1,16 +1,17 @@
 .header {
     display: flex;
-    background-color: $primary-theme-color;
+    background-color: $white;
     justify-content: center;
     align-items: center;
     padding: $base-spacing;
-    margin: 0 -2rem;
+    margin: 0 -7rem;
 
     .branding {
         display: flex;
 
         h1 {
             margin-left: $base-spacing;
+            color: $primary-theme-color;
         }
     }
     .logo {

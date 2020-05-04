@@ -32,7 +32,7 @@ span {
   font-size: .8rem; }
 
 #content-container {
-  padding: 0 2rem; }
+  padding: 0 7rem; }
 
 input,
 select {
@@ -51,15 +51,16 @@ select {
 
 .header {
   display: flex;
-  background-color: #00a7e1;
+  background-color: #fff;
   justify-content: center;
   align-items: center;
   padding: 1rem;
-  margin: 0 -2rem; }
+  margin: 0 -7rem; }
   .header .branding {
     display: flex; }
     .header .branding h1 {
-      margin-left: 1rem; }
+      margin-left: 1rem;
+      color: #00a7e1; }
   .header .logo {
     width: 48px;
     height: 48px; }
